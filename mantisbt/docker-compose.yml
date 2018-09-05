@@ -4,6 +4,7 @@ mantisbt:
     - "8989:80"
   links:
     - mysql
+    - postgres
   restart: always
 
 mysql:
