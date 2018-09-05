@@ -14,8 +14,6 @@ mysql:
     - MYSQL_USER=mantis
     - MYSQL_PASSWORD=mantis
   restart: always
-  ports:
-    - "13306:3306"
 
 postgres:
   image: postgres:latest
