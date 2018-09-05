@@ -19,6 +19,9 @@ mysql:
 postgres:
   image: postgres:latest
   environment:
-    - POSTGRES_USER=root
-    - POSTGRES_PASSWORD=root
+    - POSTGRES_USER=mantis
+    - POSTGRES_PASSWORD=mantis
+    - POSTGRES_DB=bugtracker
   restart: always
+  ports:
+    - "5432:5432"
