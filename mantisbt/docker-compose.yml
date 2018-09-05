@@ -21,4 +21,5 @@ postgres:
   environment:
     - POSTGRES_USER=root
     - POSTGRES_PASSWORD=root
+    - POSTGRES_DB=bugtracker
   restart: always
